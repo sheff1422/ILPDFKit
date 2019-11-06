@@ -62,6 +62,7 @@
     [self.signatureButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [self.signatureButton setTitle:@"Sign" forState:UIControlStateNormal];
     [self.signatureButton addTarget:self action:@selector(openSignatureView) forControlEvents:UIControlEventTouchUpInside];
+    self.signatureButton.titleLabel.adjustsFontSizeToFitWidth = YES;
     [self addSubview:self.signatureButton];
     
 }
