@@ -60,7 +60,7 @@
     
     self.signatureButton = [[UIButton alloc] initWithFrame:buttonFrame];
     [self.signatureButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [self.signatureButton setTitle:@"Tap to Sign" forState:UIControlStateNormal];
+    [self.signatureButton setTitle:@"Sign" forState:UIControlStateNormal];
     [self.signatureButton addTarget:self action:@selector(openSignatureView) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:self.signatureButton];
     
